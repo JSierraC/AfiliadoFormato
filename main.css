@@ -56,7 +56,8 @@ body{
 }
 
 .sinborder:focus {
-  border-color: green
+  border-color: green;
+  outline: 0;
 }
 
 .rodeado{
@@ -110,4 +111,22 @@ table > tbody > tr:nth-of-type(1),table > tbody > tr:nth-of-type(2),table > tbod
   background: #0062cc66;
   text-align: center;
 
+}
+
+.label-xsmall{
+	font-size:11px;	
+}
+
+.text-small{
+	font-size:13px;
+}
+
+.small{
+   width:40px;
+   font-size: 0.7rem;
+}
+
+.medium{
+   width:70px;
+   font-size: 0.7rem;
 }
